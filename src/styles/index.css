@@ -18,7 +18,16 @@ a {
   color: black;
 }
 
+.portfolio {
+  background-color: black;
+}
 
+h1{
+  color: rgb(255, 240, 189);
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 7px 7px red, 14px 14px orange, 21px 21px yellow, 28px 28px green, 35px 35px blue, 42px 42px purple;
+}
 
 .selected {
   color: white;
