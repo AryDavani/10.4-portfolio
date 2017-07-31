@@ -30,9 +30,9 @@ h1{
 }
 
 .selected {
-  color: white;
-  background-color: black;
+  color: red;
+  /*background-color: black;
   padding: 5px;
   border-radius: 10px;
-  transition: 2s;
+  transition: 2s;*/
 }
