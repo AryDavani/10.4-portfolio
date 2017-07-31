@@ -16,11 +16,11 @@ ReactDOM.render(
   <BrowserRouter>
     <BaseLayout>
       <Switch>
+        <Route exact path='/' component={Home}/>
         <Route path='/about' component={About}/>
         <Route path='/portfolio' component={Portfolio}/>
         <Route path='/contact' component={Contact}/>
         <Route path='/references' component={References}/>
-        <Route exact path='/' component={Home}/>
       </Switch>
     </BaseLayout>
   </BrowserRouter>
