@@ -20,7 +20,7 @@ ReactDOM.render(
         <Route path='/portfolio' component={Portfolio}/>
         <Route path='/contact' component={Contact}/>
         <Route path='/references' component={References}/>
-        <Route path='/' component={Home}/>
+        <Route exact path='/' component={Home}/>
       </Switch>
     </BaseLayout>
   </BrowserRouter>
