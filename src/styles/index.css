@@ -4,11 +4,53 @@ body {
   font-family: sans-serif;
 }
 
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.h-center {
+  justify-content: center;
+}
+.v-center {
+  align-items: center;
+}
+
+.contacts div {
+  width: 50%;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 105, 172, 0.1);
+}
+.contacts div a {
+  color: blue;
+
+}
+.contacts div a:hover {
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+}
+.references div {
+  width: 50%;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 105, 172, 0.1);
+
+}
+p {
+  text-align: center;
+}
+
 nav {
   display: flex;
   justify-content: center;
   color: black;
 }
+
 
 a {
   margin: 20px;
@@ -30,9 +72,9 @@ h1{
 }
 
 .selected {
-  color: red;
-  /*background-color: black;
+  color: white;
+  background-color: black;
   padding: 5px;
   border-radius: 10px;
-  transition: 2s;*/
+  transition: 1s;
 }

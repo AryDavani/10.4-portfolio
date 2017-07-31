@@ -11,6 +11,9 @@ export default class Navigation extends Component {
         <NavLink activeClassName="selected" exact to="/">Home</NavLink>
         <NavLink activeClassName="selected" to="/about">About</NavLink>
         <NavLink activeClassName="selected" to="/portfolio">Portfolio</NavLink>
+        <NavLink activeClassName="selected" to="/contact">Contact</NavLink>
+        <NavLink activeClassName="selected" to="/references">References</NavLink>
+
       </nav>
 
     )
